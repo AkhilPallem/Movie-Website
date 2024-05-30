@@ -1,0 +1,385 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>Movie Design</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container"><h1 class="logo">AkhilNation</h1></div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <form action="">
+                        <div class="search">
+                            <i class="search-icon fa-brands fa-searchengin"></i>
+                            <input class = "search-input" id="searchBar" type="search" placeholder="Search">
+                        </div>
+                    </form>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/GroupPhoto.jpeg" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-solid fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <a href="file:///Users/akhilpallem/Desktop/movieDesign/index.html"> <i class="left-menu-icon fa-solid fa-house"></i> </a>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-movies"
+            style="background:linear-gradient(to bottom, rgba(0,0,0,0), black), url('img/RyanGosling.jpg');"
+            >
+            <img class="featured-title" src="img/FallGuy2.jpg" alt="">
+            <p class="featured-description"> <b>Description:</b> He's a stuntman, and like everyone in the stunt community, he gets blown up, shot, crashed, thrown through windows and dropped from the highest of heights, all for our entertainment. 
+                And now, fresh off an almost career-ending accident, this working-class hero has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job. 
+                What could possibly go right?</p>
+                <a href="https://letterboxd.com/film/the-fall-guy-2024/">
+                    <button class="featured-button">INFO</button>
+                </a>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/LaLaLand.jpg" alt="">
+                            <span class="movie-list-item-title">La La Land</span>
+                            <p class="movie-list-item-description">Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. 
+                                But as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, 
+                                and the dreams they worked so hard to maintain in each other threaten to rip them apart.</p>
+                                <a href="https://letterboxd.com/film/la-la-land/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-description">Earth's mightiest heroes must come together and learn to fight as a team if they 
+                                are going to stop the mischievous Loki and his alien army from enslaving humanity.</p>
+                                <a href="https://letterboxd.com/film/the-avengers-2012/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/15.jpg" alt="">
+                            <span class="movie-list-item-title">Lego Batman</span>
+                            <p class="movie-list-item-description">A cooler-than-ever Bruce Wayne must deal with the usual suspects as they plan to rule Gotham City, while discovering that 
+                                he has accidentally adopted a teenage orphan who wishes to become his sidekick.</p>
+                                <a href="https://letterboxd.com/film/the-lego-batman-movie/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Spider.jpg" alt="">
+                            <span class="movie-list-item-title">Spiderman Homecoming</span>
+                            <p class="movie-list-item-description">Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, 
+                                and finds himself on the trail of a new menace prowling the skies of New York City.</p>
+                                <a href="https://letterboxd.com/film/spider-man-homecoming/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/AcrossTheSpiderverse.jpg" alt="">
+                            <span class="movie-list-item-title">Across The Spiderverse</span>
+                            <p class="movie-list-item-description">Miles Morales catapults across the multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, 
+                                Miles must redefine what it means to be a hero.</p>
+                                <a href="https://letterboxd.com/film/spider-man-across-the-spider-verse/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/AnyoneButYou.jpg" alt="">
+                            <span class="movie-list-item-title">Anyone but you</span>
+                            <p class="movie-list-item-description">After an amazing first date, Bea and Ben's fiery attraction turns ice-cold--until they find themselves unexpectedly reunited at a wedding in Australia. 
+                                So they do what any two mature adults would do: pretend to be a couple.</p>
+                                <a href="https://letterboxd.com/film/anyone-but-you/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Oppenheimer.jpeg" alt="">
+                            <span class="movie-list-item-title">Oppenheimer</span>
+                            <p class="movie-list-item-description">The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.</p>
+                            <a href="https://letterboxd.com/film/oppenheimer-2023/">
+                                <button class="movie-list-button">INFO</button>
+                            </a>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title"></h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/TheDarkKnight.jpg" alt="">
+                            <span class="movie-list-item-title">Dark Knight</span>
+                            <p class="movie-list-item-description">Batman raises the stakes in his war on crime. 
+                                With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. 
+                                The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.</p>
+                                <a href="https://letterboxd.com/film/the-dark-knight/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Zodiac.jpg" alt="">
+                            <span class="movie-list-item-title">Zodiac</span>
+                            <p class="movie-list-item-description">THERE’S MORE THAN ONE WAY TO LOSE YOUR LIFE TO A KILLER.
+                                The true story of the investigation of the “Zodiac Killer”, a serial killer who terrified the San Francisco Bay Area, taunting police with his ciphers and letters. 
+                                The case becomes an obsession for three men as their lives and careers are built and destroyed by the endless trail of clues.</p>
+                                <a href="https://letterboxd.com/film/zodiac/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/TheSuicideSquad.jpg" alt="">
+                            <span class="movie-list-item-title">The Suicide Squad</span>
+                            <p class="movie-list-item-description">THEY’RE DYING TO SAVE THE WORLD.
+                                Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons 
+                                at Belle Reve prison join the super-secret, super-shady 
+                                Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.</p>
+                                <a href="https://letterboxd.com/film/the-suicide-squad/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/JennifersBody.jpg" alt="">
+                            <span class="movie-list-item-title">Jennifer's Body</span>
+                            <p class="movie-list-item-description">SHE’S EVIL… AND NOT JUST HIGH SCHOOL EVIL
+                                A newly possessed cheerleader turns into a killer who specializes in offing her male classmates. 
+                                Can her best friend put an end to the horror?</p>
+                                <a href="https://letterboxd.com/film/jennifers-body/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Parasite.jpg" alt="">
+                            <span class="movie-list-item-title">Parasite</span>
+                            <p class="movie-list-item-description">ACT LIKE YOU OWN THE PLACE.
+                                All unemployed, Ki-taek’s family takes peculiar interest in the wealthy and glamorous Parks for their
+                                livelihood until they get entangled in an unexpected incident.</p>
+                                <a href="https://letterboxd.com/film/parasite-2019/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/FightClub.jpeg" alt="">
+                            <span class="movie-list-item-title">Fight Club</span>
+                            <p class="movie-list-item-description">MISCHIEF. MAYHEM. SOAP.
+                                A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. 
+                                Their concept catches on, with underground “fight clubs” forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.</p>
+                                <a href="https://letterboxd.com/film/fight-club/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Dune.jpg" alt="">
+                            <span class="movie-list-item-title">Dune</span>
+                            <p class="movie-list-item-description">BEYOND FEAR, DESTINY AWAITS.
+                                Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, 
+                                must travel to the most dangerous planet in the universe to ensure the future of his family and his people. 
+                                As malevolent forces explode into conflict over the planet’s exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity’s 
+                                greatest potential-only those who can conquer their fear will survive.</p>
+                                <a href="https://letterboxd.com/film/dune-2021/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-movies"
+            style="background:linear-gradient(to bottom, rgba(0,0,0,0), black), url('img/Margot.jpg');"
+            >
+            <img class="featured-title" src="img/Barbie.jpg" alt="">
+            <p class="featured-description"> <b>Description:</b> Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. 
+                However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.</p>
+            <a href="https://letterboxd.com/film/barbie/"><button class="featured-button">INFO</button></a>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/DeadpoolWolverine.jpg" alt="">
+                            <span class="movie-list-item-title">Deadpool x Wolverine</span>
+                            <p class="movie-list-item-description">A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, 
+                                Wade must reluctantly suit-up again with an even more reluctant Wolverine.</p>
+                                <a href="https://letterboxd.com/film/deadpool-wolverine/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/BlackPanther.jpg" alt="">
+                            <span class="movie-list-item-title">Black Panther</span>
+                            <p class="movie-list-item-description">King T’Challa returns home from America to the reclusive, 
+                                technologically advanced African nation of Wakanda to serve as his country’s new leader. 
+                                However, T’Challa soon finds that he is challenged for the throne by factions within his own country as well as without.
+                                 Using powers reserved to Wakandan kings, T’Challa assumes the Black Panther mantel to join with girlfriend Nakia, the queen-mother, his princess-kid sister, members of the Dora Milaje (the Wakandan ‘special forces’)
+                                 and an American secret agent, to prevent Wakanda from being dragged into a world war.</p>
+                                <a href="https://letterboxd.com/film/black-panther/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/BladeRunner.jpg" alt="">
+                            <span class="movie-list-item-title">Blade Runner 2049</span>
+                            <p class="movie-list-item-description">Thirty years after the events of the first film, 
+                                a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to 
+                                plunge what’s left of society into chaos. K’s discovery leads him on a quest to find Rick Deckard,
+                                 a former LAPD blade runner who has been missing for 30 years.</p>
+                                <a href="https://letterboxd.com/film/blade-runner-2049/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Babylon.jpg" alt="">
+                            <span class="movie-list-item-title">Babylon</span>
+                            <p class="movie-list-item-description">A tale of outsized ambition and outrageous excess, tracing the rise and fall of multiple characters in an era of unbridled decadence and depravity during Hollywood’s 
+                                transition from silent films and to sound films in the late 1920s</p>
+                                <a href="https://letterboxd.com/film/babylon-2022/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Drive.jpg" alt="">
+                            <span class="movie-list-item-title">Drive</span>
+                            <p class="movie-list-item-description">Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. 
+                                Though he projects an icy exterior, lately he’s been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene’s husband gets out of jail, he enlists Driver’s help in a million-dollar heist.
+                                 The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery</p>
+                                <a href="https://letterboxd.com/film/drive-2011/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/HungerGames.jpg" alt="">
+                            <span class="movie-list-item-title">Hunger Games</span>
+                            <p class="movie-list-item-description">Every year in the ruins of what was once North America, 
+                                the nation of Panem forces each of its twelve districts to send a teenage boy and girl to compete in the Hunger Games.
+                                Part twisted entertainment, part government intimidation tactic, the Hunger Games are a nationally televised event in which “Tributes” must fight with one another until one survivor remains. 
+                                Pitted against highly-trained Tributes who....</p>
+                                <a href="https://letterboxd.com/film/the-hunger-games/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Inception.jpg" alt="">
+                            <span class="movie-list-item-title">Inception</span>
+                            <p class="movie-list-item-description">Cobb, a skilled thief who commits corporate espionage
+                                 by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment 
+                                 for a task considered to be impossible: “inception”, 
+                                the implantation of another person’s idea into a target’s subconscious.</p>
+                                <a href="https://letterboxd.com/film/inception/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title"></h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Interstellar.jpg" alt="">
+                            <span class="movie-list-item-title">Interstellar</span>
+                            <p class="movie-list-item-description">The adventures of a group of explorers who make use of a newly 
+                                discovered wormhole to surpass the limitations on human space travel and conquer the vast distances
+                                 involved in an interstellar voyage.</p>
+                                <a href="https://letterboxd.com/film/interstellar/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/ShutterIsland.jpg" alt="">
+                            <span class="movie-list-item-title">Shutter Island</span>
+                            <p class="movie-list-item-description">World War II soldier-turned-U.S. Marshal Teddy Daniels 
+                                investigates the disappearance of a patient from a hospital for the criminally insane, 
+                                but his efforts are compromised by his troubling visions and also by a mysterious doctor.</p>
+                                <a href="https://letterboxd.com/film/shutter-island/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Furiosa.jpg" alt="">
+                            <span class="movie-list-item-title">Furiosa</span>
+                            <p class="movie-list-item-description">As the world fell, young Furiosa is snatched from the Green Place of Many Mothers and falls into the hands of a great Biker Horde led by the Warlord Dementus. 
+                                Sweeping through the Wasteland they come across the Citadel presided over by The Immortan Joe. While the two Tyrants war for dominance,
+                                 Furiosa must survive many trials as she puts together the means to find her way home</p>
+                                <a href="https://letterboxd.com/film/furiosa-a-mad-max-saga/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Challengers.jpg" alt="">
+                            <span class="movie-list-item-title">Challengers</span>
+                            <p class="movie-list-item-description">Tennis player turned coach Tashi has 
+                                taken her husband, Art, and transformed him into a world-famous Grand Slam champion. 
+                                To jolt him out of his recent losing streak, she signs him up for a “Challenger” event — close to the lowest level of pro tournament — 
+                                where he finds himself standing across the net from his former best friend and Tashi’s former boyfriend</p>
+                                <a href="https://letterboxd.com/film/challengers/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/TheIdeaOfYou.jpg" alt="">
+                            <span class="movie-list-item-title">The Idea of You</span>
+                            <p class="movie-list-item-description">40-year-old single mom Solène begins an unexpected romance with 24-year-old Hayes Campbell, 
+                                the lead singer of August Moon, the hottest boy band on the planet</p>
+                                <a href="https://letterboxd.com/film/the-idea-of-you-2024/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/GoodWill.jpg" alt="">
+                            <span class="movie-list-item-title">Good Will Hunting</span>
+                            <p class="movie-list-item-description">SOME PEOPLE CAN NEVER BELIEVE IN THEMSELVES, UNTIL SOMEONE BELIEVES IN THEM.
+                                Will Hunting has a genius-level IQ but chooses to work as a janitor at MIT. 
+                                When he solves a difficult graduate-level math problem, his talents are discovered by Professor Gerald Lambeau, who decides to help the misguided youth reach his potential. 
+                                When Will is arrested for attacking a police officer, 
+                                Professor Lambeau makes a deal to get leniency for him if he will get treatment from therapist Sean Maguire</p>
+                                <a href="https://letterboxd.com/film/good-will-hunting/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Monkeyman.jpg" alt="">
+                            <span class="movie-list-item-title">Monkey Man</span>
+                            <p class="movie-list-item-description">ONE SMALL EMBER CAN BURN DOWN EVERYTHING.
+                                Kid, an anonymous young man who ekes out a meager living in an underground fight club where, night after night, wearing a gorilla mask, 
+                                he is beaten bloody by more popular fighters for cash. After years of suppressed rage, 
+                                Kid discovers a way to infiltrate the enclave of the city’s sinister elite. As his childhood trauma boils over, his mysteriously scarred hands unleash an explosive campaign 
+                                of retribution to settle the score with the men who took everything from him.</p>
+                                <a href="https://letterboxd.com/film/monkey-man/">
+                                    <button class="movie-list-button">INFO</button>
+                                </a>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="movie.js"></script>
+</body>
+</html>
